@@ -1,0 +1,20 @@
+meta {
+  name: Register
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/v1/users/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Makechi Eric",
+    "email": "makbe@love.com",
+    "password": "mkuu",
+    "role": "USER"
+  }
+}

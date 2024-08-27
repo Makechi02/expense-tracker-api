@@ -1,0 +1,23 @@
+meta {
+  name: Update expense
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:8080/api/v1/expenses/6
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYWtiZUBsb3ZlLmNvbSIsImlhdCI6MTcyNDczNDYzMiwiZXhwIjoxNzI0ODIxMDMyfQ.DAW54bEe63-2ENn59HgkoowdXd7viJjI3JdbS6v41BA
+}
+
+body:json {
+  {
+    "description": "Doctor's Visit",
+    "category": "HEALTH",
+    "amount": 1000
+  }
+}
