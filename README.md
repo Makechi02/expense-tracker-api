@@ -5,8 +5,6 @@ This API provides functionality for users to create, read, update, and delete ex
 and log in to the application. Each user has their own set of expenses, securely managed with JWT (JSON Web Token) for
 authentication and session handling.
 
-[//]: # (https://roadmap.sh/projects/expense-tracker-api)
-
 ## Features
 
 - **User Authentication:**
@@ -127,3 +125,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+This project is inspired by the backend roadmap on [roadmap.sh](https://roadmap.sh) and follows the guidelines provided in their [Expense Tracker API project](https://roadmap.sh/projects/expense-tracker-api).
