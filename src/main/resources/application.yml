@@ -21,3 +21,9 @@ application:
             expiration: 86400000
             refresh-token:
                 expiration: 604800000
+
+springdoc:
+    api-docs:
+        enabled: true
+    swagger-ui:
+      enabled: true
